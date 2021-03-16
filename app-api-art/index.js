@@ -13,7 +13,12 @@ app.get("/data", (req, res) => {
 app.get("/profile", (req, res) => {
     // ? SHOW
     res.json({ name: "Thapakorn Phoeypghon ", nickname:"ArtRonin" })
-})
+}) 
+
+app.get("/jame", (req, res) => {
+    // ? SHOW
+    res.json({ name: "Chantawat Thanyaphatarin", nickname: "Jame" })
+})   
 
 app.delete("/profile", (req, res) => {
     // ! Delete Profile Data
