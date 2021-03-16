@@ -17,7 +17,7 @@ app.get("/profile", (req, res) => {
 
 app.get("/m", (req, res) => {
     // ? SHOW
-    res.json({ name: "Thongchai Sriboonruang", nickname:"M" })
+    res.json({ name: "Thongchai Sriboonruang", nickname:"Mmy" })
 })
 
 app.delete("/profile", (req, res) => {
