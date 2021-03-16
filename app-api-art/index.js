@@ -15,6 +15,16 @@ app.get("/profile", (req, res) => {
     res.json({ name: "Thapakorn Phoeypghon ", nickname:"ArtRonin" })
 })
 
+app.get("/m", (req, res) => {
+    // ? SHOW
+    res.json({ name: "Thongchai Sriboonruang", nickname:"M" })
+})
+
+app.delete("/profile", (req, res) => {
+    // ! Delete Profile Data
+    res.json({ message: "delete profile DATA" })
+})
+
 app.post("/data", (req, res) => {
     // ?  CREATE 
     res.json({ message: "create DATA" })
